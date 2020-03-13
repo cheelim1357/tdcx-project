@@ -1,0 +1,121 @@
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+ .navbar li {
+    float: left;
+  }
+  
+ .navbar li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+ .navbar li a:hover:not(.active) {
+    background-color: rgb(255, 255, 255);
+  }
+  img {
+      margin-top: 5px;
+    border-radius: 50%;
+  }
+
+  .leftspace{
+      padding-top: 10px;
+      padding-left: 10px;
+  }
+  
+/* End of Navbar*/  
+
+.container{
+    background-color: #D3D3D3;
+    margin: 0px;
+    float: none; /* Added */
+    width: auto;
+}
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+    width: 30%;
+    display: flex;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 50px #555;
+    background-color: #ffffff;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  input {
+    padding: 10px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #cfcfcf;
+  }
+  
+  input::placeholder {
+    font-size: 1.2em;
+    font-weight: lighter;
+    color: #999;
+  }
+
+  /* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 15px;
+  }
+
+  input[type=checkbox]:checked + label.strikethrough{
+    text-decoration: line-through;
+  }
+
+  label{
+    font-size: large;
+  }
+
+
+  .fontBlue{
+      color:blue;
+      font-size: xx-large;
+  }
+
+  .addTask{
+    color:blue;
+    border-radius: 5px;
+  }
+
+  .taskName{
+      width: 50%;
+  }
+
+  .emptytask{
+    width: 1000px;
+  }
+
+  .oneline{
+    border: 1px solid black;
+    width: 70px;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  
+
+  
